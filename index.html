@@ -1,32 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<html>
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" contet="windth=device-width,initial-scale=1.0">
-<title>ECOGuaíra</title>
-<style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ECOGuaíra</title>
+  <style>
+    body {
+        font-family: Georgia, serif;
+        background-color: #ffffff;
+        color: #000000;
+    }
 
-body {
-    font-family: Georgia, serif;
-    background-color: #eeeeee;
-    color: #000000
-}
+    header h2 {
+        margin: 5px 0;
+        font-family: Georgia, serif;
+        color: rgb(0, 0, 0);
+    }
 
-header h2 {
-  margin: 5;
-  font-family: Georgia, serif;
-  color: rgb(209, 204, 204);
-}
+    header h3 {
+        margin: 0;
+        font-family: Georgia, serif;
+        background: #367248;
+    }
 
-header h3 {
+    .card p {
+    font-size: 0.92rem;
+    line-height: 1.65;
+    color: #585757;
     margin: 0;
-    font-family: Georgia, serif;
-    background: #367248
 }
 
-
-.card img {
+    .card img {
     width: 120px;
     height:90px;
     object-fit: cover;
@@ -34,103 +38,114 @@ header h3 {
     flex-shrink: 0;
 }
 
-header p {
+    header p {
     color: #3e3e3e
+}
+
+nav a {
+  color: #c6e8c9;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem
+}
+
+nav a:houver {
+ background: #3e3e3e;
+ color: white;
+}
+
+main {
+  max-width: 860px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
 }
 
 .card p {
     font-size: 0.92rem;
-    line-height: 1,65;
+    line-height: 1.65;
     color: #333;
     margin: 0;
 }
 
-</style>
+footer {
+    text-align: center;
+    padding: 2rem;
+    background:#243a2c;
+    color: #bebebe;
+    margin-top: 3rem;
+}
+
+  </style>
 </head>
 <body>
-    <header>
+  <header>
+    <nav>
+        <a href="#solar">Solar</a>
+        <a href="#eolica">Eólica</a>
+        <a href="#hidreletrica">Hidrelétrica</a>
+        <a href="#biomassa">Biomassa</a>
+        <a href="#hidrogenio-verde">Hidrogênio-verde</a>
+        <a href="#geotermica">Geotérmica</a>
+    </nav>
 
-<nav>
-    <a href="Solar">Solar</a>
-    <a href="Eólica">Eólica</a>
-    <a href="Hidrelétrica">Hidrelétrica</a>
-    <a href="Biomassa">Biomassa</a>
-    <a href="Hidrogênio-verde">Hidrogênio-verde</a>
-    <a href="Geotérmica">Geotérmica</a>
-</nav>
+    <h3>Energia Limpa e Renovável: O Futuro da Energia</h3>
+    <h2>Tipos de energias limpas</h2>
+  </header>
 
-</head>
-<body>
-
-
-<h3>Energia Limpa e Renovável: O Futuro
-da Energia</h3>
-<h2>Tipos de energias limpas</h2>
-
-<div class="card" id="solar">
-<h3>Energia Solar</h3>
-     <div>
-<h5>O que é energia solar?</h5>
-<p>A energia solar é a energia obtida pela luz e calor do Sol, convertida em eletricidade ou energia térmica, sendo uma fonte renovável, inesgotável e limpa. Utiliza painéis fotovoltaicos para gerar energia elétrica ou sistemas térmicos para aquecimento, reduzindo custos na conta de luz e emissão de gases estufa.</p>
-<img src="energia solar.jpg" alt="energia solar" width="104" height="142">
+  <div class="card" id="solar">
+    <div>
+      <h3>Energia Solar</h3>
+      <h5>O que é Energia Solar?</h5>
+      <p>A energia solar é a conversão da luz do sol em eletricidade ou calor, usando painéis fotovoltaicos ou coletores térmicos. É uma fonte limpa, renovável e sustentável, reduzindo emissões de gases poluentes. Por depender da incidência solar, sua produção varia conforme clima e horário.</p>
     </div>
-</div>
+    <img src="energia-solar.jpg" alt="Energia Solar">
+  </div>
 
-<div class="card" id="Eólica">
-
-<h3>Energia Eólica</h3>
-<div>
-<h5>O que é Energia Eólica?</h5>
-<p>A energia eólica é a transformação da força dos ventos (energia cinética) em energia elétrica, utilizando aerogeradores ou turbinas eólicas. É uma fonte de energia limpa, renovável e inesgotável, fundamental para a redução de gases de efeito estufa e a transição energética.</p>
-
-<img src="eólica.jpg" alt="eólica" width="104" height="142">
+  <div class="card" id="eolica">
+    <div>
+      <h3>Energia Eólica</h3>
+      <h5>O que é Energia Eólica?</h5>
+      <p>A energia eólica é a transformação da força dos ventos (energia cinética) em energia elétrica, utilizando aerogeradores ou turbinas eólicas. É uma fonte de energia limpa, renovável e inesgotável, fundamental para a redução de gases de efeito estufa e a transição energética.</p>
     </div>
-</div>
+    <img src="energia-eolica.jpg" alt="Energia Eólica">
+  </div>
 
-<div class="card" id="Hidrelétrica">
-
-<h3>Hidrelétrica</h3>
-<h5>O que é Hidrelétrica?</h5>
-<div>
-<p>Uma usina hidrelétrica é uma instalação que transforma a energia potencial e cinética da água de rios em energia elétrica. Ela utiliza a força da água represada para girar turbinas, que acionam geradores para produzir eletricidade renovável. É uma fonte limpa, mas com grande impacto ambiental pela construção de reservatórios.</p>
-
-<img src="hidreletrica.jpg" alt="hidrelétrica" width="104" height="142">
+  <div class="card" id="hidreletrica">
+    <div>
+      <h3>Hidrelétrica</h3>
+      <h5>O que é Hidrelétrica?</h5>
+      <p>Uma usina hidrelétrica é uma instalação que transforma a energia potencial e cinética da água de rios em energia elétrica. Ela utiliza a força da água represada para girar turbinas, que acionam geradores para produzir eletricidade renovável. É uma fonte limpa, mas com grande impacto ambiental pela construção de reservatórios.</p>
     </div>
-</div>
+    <img src="hidreletrica.jpg" alt="Hidrelétrica">
+  </div>
 
-<div class="card" id="Biomassa">
+  <div class="card" id="biomassa">
+    <div>
+      <h3>Biomassa</h3>
+      <h5>O que é Biomassa?</h5>
+      <p>Biomassa é toda matéria orgânica de origem vegetal ou animal utilizada como fonte de energia renovável. Ela transforma resíduos como bagaço de cana, madeira, cascas agrícolas e lixo orgânico em calor, eletricidade ou combustíveis (etanol, biodiesel, biogás). É uma alternativa sustentável que substitui combustíveis fósseis.</p>
+    </div>
+    <img src="biomassa.jpg" alt="Biomassa">
+  </div>
 
-<h3>Biomassa</h3>
-<h5>O que é Biomassa?</h5>
-<div>
-<p>Biomassa é toda matéria orgânica de origem vegetal ou animal utilizada como fonte de energia renovável. Ela transforma resíduos como bagaço de cana, madeira, cascas agrícolas e lixo orgânico em calor, eletricidade ou combustíveis (etanol, biodiesel, biogás). É uma alternativa sustentável que substitui combustíveis fósseis.</p>
+  <div class="card" id="hidrogenio-verde">
+    <div>
+      <h3>Hidrogênio Verde</h3>
+      <h5>O que é Hidrogênio Verde?</h5>
+      <p>O hidrogênio verde é um combustível limpo produzido pela eletrólise da água, utilizando eletricidade de fontes renováveis (solar, eólica ou hídrica). Esse processo separa hidrogênio e oxigênio sem emitir dióxido de carbono, sendo fundamental para a descarbonização de indústrias pesadas e transporte.</p>
+    </div>
+    <img src="hidrogenio-verde.jpg" alt="Hidrogênio Verde">
+  </div>
 
-<img src="biomassa.jpg" alt="biomassa" width="104" height="142">
-     </div>
-</div>
+  <div class="card" id="geotermica">
+    <div>
+      <h3>Geotérmica</h3>
+      <h5>O que é Geotérmica?</h5>
+      <p>A energia geotérmica é a energia obtida do calor do interior da Terra. Esse calor pode ser usado para gerar eletricidade ou aquecer ambientes.</p>
+    </div>
+    <img src="geoternica.jpg" alt="Energia Geotérmica">
+  </div>
 
-<div class="card" id="Hidrogênio verde">
+<footer>ECOGuaíra - Energia para um futuro sustentável.</footer>
 
-<h3>Hidrogênio-verde</h3>
-</div>
-<h5>O que é Hidrôgenio-verde?</h5>
-<div>
-<p>O hidrogênio verde é um combustível limpo produzido pela eletrólise da água, utilizando eletricidade de fontes renováveis (solar, eólica ou hídrica). Esse processo separa hidrogênio e oxigênio sem emitir dióxido de carbono, sendo fundamental para a descarbonização de indústrias pesadas e transporte.</p>
-
-<img src="hidrogeio_verde.jpg" alt="hidrogenio verde" width="104" height="142">
-      </div>
-</div>
-
-<div class="card" id="Geotérmica">
-
-<h3>Geotérmica</h3>
-</div>
-<h5>O que é Geotérmica</h5>
-
-<p>A energia geotérmica é a energia obtida do calor do interior da Terra. Esse calor pode ser usado para gerar eletricidade ou aquecer ambientes.</p>
-
-<img src="usinas-energia-geotermica.jpg" alt="Geotérmica" width="104" height="142">
-
-</style>
 </body>
 </html>
